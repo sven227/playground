@@ -1,0 +1,41 @@
+
+var jsonInfoContainer = document.getElementById("json-info");
+var pageCounter = 1;
+var btn = document.getElementById('btn');
+
+btn.addEventListener("click", tuwas); // nicht tuwas() mit klammenn schreiben sonst geht er sofort los! und wartet nicht auf click
+
+function tuwas() {
+    var ourRequest = new XMLHttpRequest();
+    ourRequest.open('POST',
+        '/personjson', true);
+
+    ourRequest.setRequestHeader('Content-Type', 'application/json');
+    var ourData = JSON.stringify({ firstname: "Jane", lastname: "Doe" });
+    ourRequest.send(ourData);
+
+    ourRequest.onerror = function () {
+        console.log("connection error");
+        alert("connection error");
+    }
+
+   
+    // pageCounter++;
+    // if (pageCounter > 3) {
+    //     btn.classList.add("hide-me");
+    // }
+
+};
+
+function renderHTML(ourData) {
+    var htmlString = "";
+
+    for (var i = 0; i < ourdata.length; i++) {
+        htmlString += "<p>" + data[i].firstname + " " + data[i].lastname;
+        htmlString += '</p>';
+    }
+
+
+    jsonInfoContainer.insertAdjacentHTML('beforeend', htmlString);
+
+}

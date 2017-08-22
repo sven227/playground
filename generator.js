@@ -1,0 +1,5 @@
+
+
+var myGen = function* () {
+    vare 
+}
