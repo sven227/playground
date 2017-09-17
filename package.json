@@ -10,7 +10,8 @@
     "express": "^4.15.3",
     "node-extend": "^0.2.0",
     "object-hash": "^1.1.8",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "yargs": "^8.0.2"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,5 +19,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "bla-bla"
+  "description": "bla-bla",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sven227/playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sven227/playground/issues"
+  },
+  "homepage": "https://github.com/sven227/playground#readme"
 }
