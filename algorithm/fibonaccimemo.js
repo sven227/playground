@@ -19,7 +19,7 @@ function fiboButtomUp(position) {
     array[1] = 1;
     array[2] = 1;
     let maxValuefibo = 0;
-    if (position <= 2) { return array };
+    if (position <= 2) { return array }
     for (let i = 3; i <= position; i++) {
 
         array[i] = array[i - 1] + array[i - 2];
