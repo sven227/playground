@@ -17,6 +17,7 @@
             "error",
             "never"
         ],
+      
         "array-callback-return": "off",
         "arrow-body-style": "off",
         "arrow-parens": "off",
@@ -91,7 +92,7 @@
         "no-catch-shadow": "error",
         "no-compare-neg-zero": "error",
         "no-confusing-arrow": "error",
-        "no-continue": "error",
+      //"no-continue": "error",
         "no-div-regex": "error",
         "no-duplicate-imports": "error",
         "no-else-return": "off",
@@ -166,6 +167,7 @@
         "no-unmodified-loop-condition": "error",
         "no-unneeded-ternary": "error",
         "no-unused-expressions": "off",
+        "no-unused-vars":"off",
         "no-use-before-define": "off",
         "no-useless-call": "error",
         "no-useless-computed-key": "error",

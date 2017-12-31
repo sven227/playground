@@ -1,5 +1,5 @@
-var util = require ('util');
-
+//var util = require ('util');
+// Object definition - NOT really a functionconstructor!!!
 var Person = {
 	firstname: '',
 	lastname: '',
@@ -7,6 +7,7 @@ var Person = {
 		return this.firstname + ' ' + this.lastname;
 	}
 }
+//Achtung Person ist ein Object - kein funktionskonstruktor!!
 
 var john = Object.create(Person);
 john.firstname = 'John';

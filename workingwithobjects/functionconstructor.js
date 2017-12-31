@@ -2,7 +2,7 @@
 var util = require ('util');
 var extend = require('node.extend');
 var propertyretriever = require('./propertyretriever');
-
+//worst thing about function constructors - they exist only in global execution context!
 function Person (firstname, lastname) {
 
 	this.firstname = firstname,

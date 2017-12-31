@@ -1,0 +1,142 @@
+[
+    {
+        "id": "us2000bl0z",
+        "time": "2017-11-09T19:45:44+01:00",
+        "mag": 5.3,
+        "place": "177km ESE of Hachijo-jima, Japan",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                141.5594,
+                32.4901,
+                10
+            ]
+        }
+    },
+    {
+        "id": "us2000bksq",
+        "time": "2017-11-09T11:06:12+01:00",
+        "mag": 4.6,
+        "place": "102km SW of Chirovanga, Solomon Islands",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                155.8482,
+                -7.2302,
+                72.99
+            ]
+        }
+    },
+    {
+        "id": "us2000bkrv",
+        "time": "2017-11-09T08:42:12+01:00",
+        "mag": 6,
+        "place": "165km ESE of Hachijo-jima, Japan",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                141.4466,
+                32.5357,
+                20.34
+            ]
+        }
+    },
+    {
+        "id": "us2000bkrs",
+        "time": "2017-11-09T08:36:58+01:00",
+        "mag": 4.9,
+        "place": "21km SW of Ovalle, Chile",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -71.3876,
+                -30.7084,
+                43.46
+            ]
+        }
+    },
+    {
+        "id": "us2000bkp8",
+        "time": "2017-11-09T04:11:02+01:00",
+        "mag": 5.2,
+        "place": "103km W of Tobelo, Indonesia",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                127.094,
+                1.8944,
+                99.14
+            ]
+        }
+    },
+    {
+        "id": "us2000bkmn",
+        "time": "2017-11-09T01:29:03+01:00",
+        "mag": 4.6,
+        "place": "79km NW of Tobelo, Indonesia",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                127.5041,
+                2.2392,
+                118.69
+            ]
+        }
+    },
+    {
+        "id": "us2000bkmd",
+        "time": "2017-11-09T01:01:43+01:00",
+        "mag": 4.9,
+        "place": "37km SSE of Amukta Island, Alaska",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -171.0549,
+                52.1716,
+                47.54
+            ]
+        }
+    },
+    {
+        "id": "us2000bkll",
+        "time": "2017-11-09T00:21:35+01:00",
+        "mag": 4.8,
+        "place": "69km SSW of Sola, Vanuatu",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                167.4107,
+                -14.4931,
+                179.09
+            ]
+        }
+    },
+    {
+        "id": "us2000bkk8",
+        "time": "2017-11-08T22:54:17+01:00",
+        "mag": 4.9,
+        "place": "5km SW of Banjar Dukuh, Indonesia",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                115.5201,
+                -8.32,
+                10
+            ]
+        }
+    },
+    {
+        "id": "us2000bkie",
+        "time": "2017-11-08T21:40:07+01:00",
+        "mag": 4.8,
+        "place": "72km W of San Antonio de los Cobres, Argentina",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -67.0212,
+                -24.3331,
+                172.14
+            ]
+        }
+    }
+]
