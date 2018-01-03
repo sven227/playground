@@ -25,7 +25,7 @@ LinkedList.prototype.addToHead = function (value) {
 };
 
 LinkedList.prototype.addToTail = function (value) {
-    newNode = new Node(value, null, this.tail);
+    let newNode = new Node(value, null, this.tail);
     if (this.tail) {
         this.tail.next = newNode;
     } else {
@@ -62,7 +62,7 @@ LinkedList.prototype.search = function (searchvalue) {
 
         if (currentNode.value === searchvalue) {
             return currentNode.value;
-        };
+        }
         currentNode = currentNode.next;
     }
     return null;
@@ -76,7 +76,7 @@ LinkedList.prototype.indexof = function (value) {
         if (currentNode.value === value) {
             results.push(index);
 
-        };
+        }
         currentNode = currentNode.next;
         index++;
 
